@@ -1,7 +1,7 @@
 name: artemis_screen
-repository: https://github:com/MahmoodBakhshayesh/bricks-artemis-screen
+repository: https://github.com/MahmoodBakhshayesh/bricks-artemis-screen
 description: A new brick created with the Mason CLI based on artemis structure.
-version: 0.1.0+1
+version: 0.2.0+1
 
 
 # The following defines the environment for the current brick.
