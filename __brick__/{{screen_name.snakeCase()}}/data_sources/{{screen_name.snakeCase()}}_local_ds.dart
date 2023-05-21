@@ -7,9 +7,6 @@ import '../../../core/data_base/local_data_base.dart';
 import '../../../core/data_base/table_names.dart';
 import '../../../initialize.dart';
 import '../interfaces/{{screen_name.snakeCase()}}_data_source_interface.dart';
-import '../usecases/get_salt_usecase.dart';
-import '../usecases/{{screen_name.snakeCase()}}_usecase.dart';
-import '../usecases/server_select_usecase.dart';
 
 const String userJsonLocalKey = "UserJson";
 

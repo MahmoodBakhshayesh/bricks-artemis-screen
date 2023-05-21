@@ -1,9 +1,6 @@
 import '../../../core/abstracts/response_abs.dart';
 import '../../../core/platform/network_manager.dart';
 import '../interfaces/{{screen_name.snakeCase()}}_data_source_interface.dart';
-import '../usecases/get_salt_usecase.dart';
-import '../usecases/{{screen_name.snakeCase()}}_usecase.dart';
-import '../usecases/server_select_usecase.dart';
 import '{{screen_name.snakeCase()}}_local_ds.dart';
 
 class {{screen_name.pascalCase()}}RemoteDataSource implements {{screen_name.pascalCase()}}DataSourceInterface {
