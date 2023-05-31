@@ -6,6 +6,5 @@ import '{{screen_name.snakeCase()}}_state.dart';
 
 class {{screen_name.pascalCase()}}Controller extends MainController {
   late {{screen_name.pascalCase()}}State {{screen_name.snakeCase()}}State = ref.read({{screen_name.snakeCase()}}Provider);
-  // UseCase UseCase = UseCase(repository: Repository());
 
 }

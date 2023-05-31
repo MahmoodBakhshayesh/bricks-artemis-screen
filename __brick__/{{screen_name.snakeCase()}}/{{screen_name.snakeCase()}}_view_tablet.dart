@@ -4,9 +4,8 @@ import '{{screen_name.snakeCase()}}_controller.dart';
 import '{{screen_name.snakeCase()}}_state.dart';
 
 class {{screen_name.pascalCase()}}ViewTablet extends StatelessWidget {
-  final {{screen_name.pascalCase()}}Controller my{{screen_name.pascalCase()}}Controller;
-
-  const {{screen_name.pascalCase()}}ViewTablet({super.key, required this.my{{screen_name.pascalCase()}}Controller});
+  static {{screen_name.pascalCase()}}Controller my{{screen_name.pascalCase()}}Controller = getIt<{{screen_name.pascalCase()}}Controller>();
+  const {{screen_name.pascalCase()}}View({super.key});
 
   @override
   Widget build(BuildContext context) {
