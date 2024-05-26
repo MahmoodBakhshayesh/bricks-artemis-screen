@@ -12,7 +12,6 @@ class {{screen_name.pascalCase()}}ViewTablet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: Text("{{screen_name.pascalCase()}}"),),
-        backgroundColor: Colors.black54,
         body: Column(children: [
 
         ],));

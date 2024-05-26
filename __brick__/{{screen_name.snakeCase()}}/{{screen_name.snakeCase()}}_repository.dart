@@ -1,4 +1,4 @@
-import 'package:lugeez/core/interface_implementations/network_info.dart';
+import '../../core/interface_implementations/network_info_imp.dart';
 import '../../initialize.dart';
 import 'interfaces/{{screen_name.snakeCase()}}_repository_interface.dart';
 import 'data_sources/{{screen_name.snakeCase()}}_local_ds.dart';

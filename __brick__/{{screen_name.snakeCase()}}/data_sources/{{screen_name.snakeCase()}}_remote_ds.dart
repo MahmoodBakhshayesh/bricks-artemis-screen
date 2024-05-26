@@ -1,4 +1,5 @@
-import 'package:lugeez/core/interface_implementations/network_manager.dart';
+import '../../../core/interface_implementations/network_manager_imp.dart';
+import '../../../core/data_base/local_data_base.dart';
 import '../interfaces/{{screen_name.snakeCase()}}_data_source_interface.dart';
 import '{{screen_name.snakeCase()}}_local_ds.dart';
 
