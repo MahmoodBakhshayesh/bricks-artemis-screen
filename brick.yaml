@@ -1,13 +1,13 @@
 name: artemis_screen
 repository: https://github.com/MahmoodBakhshayesh/bricks-artemis-screen
 description: A new brick created with the Mason CLI based on artemis structure.
-version: 0.3.1+4
+version: 0.5.0+3
 
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
 environment:
-  mason: ">=0.1.0-dev.26 <0.1.0"
+  mason: ">=0.1.0-dev.26 <0.1.1"
 
 # Variables specify dynamic values that your brick depends on.
 # Zero or more variables can be specified for a given brick.
