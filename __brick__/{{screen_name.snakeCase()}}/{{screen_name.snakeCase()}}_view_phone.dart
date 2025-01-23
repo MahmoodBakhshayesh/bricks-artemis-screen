@@ -26,7 +26,7 @@ class {{screen_name.pascalCase()}}AppBar extends StatelessWidget implements Pref
 const {{screen_name.pascalCase()}}AppBar({super.key});
 
 @override
-Size get preferredSize => const Size.fromHeight(58);
+Size get preferredSize => const Size.fromHeight(108);
 
 @override
 Widget build(BuildContext context) {
@@ -40,11 +40,13 @@ return Container(
                         Expanded(
                           child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                   Row(
                                     children: [
+                                        SizedBox(width: 16),
                                         Text(
-                                          "Flights",
+                                          "{{screen_name.pascalCase()}}",
                                             style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 18),
                                         ),
                                         Spacer(),

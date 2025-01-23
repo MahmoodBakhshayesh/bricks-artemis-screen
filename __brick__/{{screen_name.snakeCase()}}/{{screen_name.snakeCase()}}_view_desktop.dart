@@ -25,7 +25,7 @@ static {{screen_name.pascalCase()}}Controller my{{screen_name.pascalCase()}}Cont
 const {{screen_name.pascalCase()}}AppBarDesktop({super.key});
 
 @override
-Size get preferredSize => const Size.fromHeight(58);
+Size get preferredSize => const Size.fromHeight(108);
 
 @override
 Widget build(BuildContext context) {
@@ -39,11 +39,12 @@ children: [
 Expanded(
 child: Column(
 crossAxisAlignment: CrossAxisAlignment.start,
+mainAxisAlignment: MainAxisAlignment.center,
 children: [
 Row(
 children: [
 Text(
-"Flights",
+"{{screen_name.pascalCase()}}",
 style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 18),
 ),
 Spacer(),

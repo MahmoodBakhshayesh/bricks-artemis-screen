@@ -9,7 +9,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../../core/extenstions/context_exp.dart';
 
 class {{screen_name.pascalCase()}}View extends ConsumerWidget {
-    const FlightsView({Key? key}) : super(key: key);
+    const FlightsView({super.key});
     @override
     Widget build(BuildContext context,WidgetRef ref) {
       if(context.isDesktop){
